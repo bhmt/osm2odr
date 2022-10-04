@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "osm2odr"
+version = "0.1.0"
+description = "OpenStreetMap to OpenDRIVE conversion"
+authors = ["bhmt"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+fastapi = "^0.85.0"
+uvicorn = "^0.18.3"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^5.0.4"
+autopep8 = "^1.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
